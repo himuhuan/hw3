@@ -1,0 +1,42 @@
+.copyright-text {
+    color: gray;
+    font-size: 0.95em !important;
+    font-weight: 200;
+}
+
+.white-ft {
+    color: white;
+}
+
+.tc-font {
+    color: var(--himu-blue);
+}
+
+.no-a {
+    text-decoration: none;
+    color: var(--himu-text-color);
+}
+
+.item-hover {
+    background-color: var(--himu-hover-color);
+}
+
+.border-color-blue {
+    border-color: var(--himu-bold-blue) !important;
+}
+
+.border-color-red {
+    border-color: var(--himu-red) !important;
+}
+
+.border-color-purple {
+    border-color: var(--himu-purple) !important;
+}
+
+.border-color-pink {
+    border-color: var(--himu-pink) !important;
+}
+
+.border-color-tc {
+    border-color: var(--himu-text-color) !important;
+}

@@ -1,0 +1,64 @@
+
+.section-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    height: 35rem;
+}
+
+#welcome {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("../../images/wallhaven-nr2l27.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.article-section {
+    margin: 1rem 1rem 0 0;
+}
+
+.article-section h2 {
+    margin: 1rem 0;
+}
+
+.article-section p {
+    margin: 1rem 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 15px 30px;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px auto;
+    border: 3px solid var(--himu-hover-color);
+    border-radius: 5px;
+}
+
+.main-content p {
+    font-size: large;
+}
+
+@media screen and (max-width: 960px) {
+    #welcome {
+        background-repeat: no-repeat;
+        background-image: url("../../images/wallhaven-nr2l27.png");
+        background-position: left;
+        background-size: cover;
+    }
+
+    .main-content {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+}

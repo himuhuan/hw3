@@ -1,0 +1,75 @@
+@font-face {
+    font-family: FiraCode-Retina;
+    src: url("../../resource/font/FiraCode-Retina.ttf");
+}
+
+@font-face {
+    font-family: HimuContentSans;
+    src: url("../../resource/font/NotoSans/NotoSansCJK-Light-3.otf");
+}
+
+@font-face {
+    font-family: ArtFont;
+    src: url("../../resource/font/Balymond-2.ttf");
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --himu-text-color: black;
+    --himu-bg-color: white;
+    --himu-pink: #f69ca5;
+    --himu-red: red;
+    --himu-purple:#B392E3;
+    --himu-light-purple: #ebdeff;
+    --himu-blue: #4a95c5;
+    --himu-bold-blue: #2e6fb7;
+    --himu-light-blue: #E5F3FE;
+    --himu-yellow: #faf8b6;
+    --himu-hover-color: rgba(0, 0, 0, 0.045);
+    --himu-gray: #3e3e3e;
+
+    --himu-font-family: HimuContentSans, arial, sans-serif;
+}
+
+body {
+    background-color: var(--himu-bg-color);
+    color: var(--himu-text-color);
+    margin: 0;
+    display: block;
+    text-align: left;
+    height: 100vh;
+
+    word-wrap: break-word;
+    word-break: break-word;
+    font-size: 16px;
+    font-family: var(--himu-font-family);
+}
+
+main {
+    overflow-y: auto;
+}
+
+html {
+    line-height: 1.15;
+    
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+p {
+    padding: 2px 0;
+}

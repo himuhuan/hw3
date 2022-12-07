@@ -1,0 +1,78 @@
+.p-0 {
+    padding: 0 !important;
+}
+
+.pb-5 {
+    padding-bottom: 5px !important;
+}
+
+.my-10 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.my-20 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.pd-box {
+    padding: 10px 5px !important;
+}
+
+.margin-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.mr-5px {
+    margin-right: 5px !important;
+}
+
+.lh-65 {
+    line-height: 65px !important;
+}
+
+.collapse {
+    display: none !important;
+}
+
+.bold-weight {
+    font-weight: 800 !important;
+}
+
+.large-font {
+    font-size: larger !important;
+}
+
+.code-font {
+    font-family: FiraCode-Retina, HimuContentSans, sans-serif !important;
+}
+
+.ft-8rem {
+    font-size: 8rem !important;
+}
+
+.art-font {
+    font-family: ArtFont, sans-serif !important;
+}
+
+.as-block {
+    display: block !important;
+}
+
+.fill-container {
+    width: 100% !important;
+}
+
+.justify-content-left {
+    justify-content: left !important;
+}
+
+.animation-down-slide {
+    animation: down-slide 3s;
+}
+
+@keyframes down-slide {
+    from {transform: translateY(-100%);}
+}

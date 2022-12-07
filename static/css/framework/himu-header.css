@@ -1,0 +1,18 @@
+@import url("../theme/himu-light-theme-base.css");
+
+:root {
+    --header-height: 45px;
+}
+
+.himu-header {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--himu-bg-color);
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}

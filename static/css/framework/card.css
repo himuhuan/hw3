@@ -1,0 +1,32 @@
+.tip-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 2px;
+    color: var(--himu-gray);
+}
+
+.tip-card-inf-mode {
+    border-left: 3px solid var(--himu-blue);
+    background-color: var(--himu-light-blue);
+}
+
+.tip-card-inf-logo::before {
+    content: url("../../images/svg/small-tips.svg");
+}
+
+.tip-card-warning {
+    border-left: 3px solid var(--himu-purple);
+    background-color: var(--himu-light-purple);
+}
+
+.tip-card-warning-logo::before {
+    content: url("../../images/svg/small-warning.svg");
+}
+
+.tip-card p {
+    margin-left: 5px;
+}

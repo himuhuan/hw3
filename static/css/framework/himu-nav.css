@@ -1,0 +1,100 @@
+.top-nav-main {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    gap: 8px;
+    position: static;
+    z-index: 100;
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 0;
+    max-width: max-content;
+}
+
+.himu-logo-wrap {
+    padding: 0 10px;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    grid-gap: 1rem;
+    box-sizing: border-box;
+}
+
+.list-item {
+    text-decoration: none;
+    color: var(--himu-gray);
+
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 0.25rem;
+    border-top: none;
+    padding: 1rem;
+
+    transition: background-color linear .1s;
+}
+
+.list-item:hover {
+    background-color: var(--himu-hover-color);
+    color: var(--himu-text-color);
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu .border-left {
+    padding: 20px 10px;
+    margin: 10px 10px;
+    border-left: 3px outset var(--himu-blue);
+}
+
+.sub-menu-item {
+    display: block;
+    transition: background-color linear .1s;
+}
+
+.sub-menu-item:hover {
+    background-color: var(--himu-hover-color);
+}
+
+.list-item:hover + .sub-menu, .sub-menu:hover {
+    min-width: 350px;
+    background-color: var(--himu-bg-color);
+    display: block;
+    z-index: 1000;
+    list-style: none;
+    position: absolute;
+    top: calc(80%);
+    padding: 10px;
+    border-radius: .3rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-nav {
+    width: 100%;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    min-height: max-content;
+}
