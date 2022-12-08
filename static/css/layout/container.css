@@ -25,7 +25,7 @@
     display: flex;
     max-height: calc(85vh);
     overflow: auto;
-    width: calc(40vh);
+    max-width: calc(40%);
 }
 
 .image-container {

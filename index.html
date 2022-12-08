@@ -26,22 +26,18 @@
             }
         }
     </style>
-
-    <script>
-    </script>
-    
     <title> Hello, "HumoraNotSakura" </title>
 </head>
 
-<body>
+<body id="main">
     <div id="welcome" class="section-container">
         <div class="white-ft">
             <p class="art-font ft-8rem pd-box animation-down-slide"> Himu </p>
-            <p class="large-font code-font"> 欢迎来到 Himu 的站点 </p>
+            <p class="code-font"> 欢迎来到 Himu 的站点 </p>
         </div>
     </div>
 
-    <div class="himu-header">
+    <header class="himu-header">
         <div class="center-container" id="top-nav-container">
             <div class="himu-logo-wrap">
                 <a class="lh-65 art-font no-a" style="font-size: 65px" href="#"> Himu </a>
@@ -87,10 +83,10 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </header>
     <div id="tip" class="tip-card tip-card-inf-mode">
         <p class="tip-card-inf-logo">
-            <b> 注意:   </b>
+            <b> 注意:   </b> <br>
             本网站提到的所有相关技术都以演示作业为目的, 详情参见相关官方网站.
         </p>
     </div>
@@ -98,21 +94,21 @@
     <div class="full-container pd-box">
         <div class="sidebar-container">
             <nav class="sidebar-nav" role="navigation">
-                <ul>
-                    <li class="my-20"> <a class="justify-content-left fill-container large-font bold-weight"> 更新内容 </a> </li>
+                <ul id="sidebar-list">
+                    <li class="my-20 tc-font"> <a class="justify-content-left fill-container large-font bold-weight"> 更新内容 </a> </li>
                     <li> <a href="#overview" class="justify-content-left fill-container list-item large-font"> 概述 </a> </li>
                     <li> <a href="#improve" class="justify-content-left fill-container list-item large-font"> 改进 </a> </li>
                     <li> <a href="#note" class="justify-content-left fill-container list-item large-font"> 已知问题 </a> </li>
 
-                    <li class="my-20"> <a class="justify-content-left fill-container large-font bold-weight"> 使用说明 </a> </li>
+                    <li class="my-20 tc-font"> <a class="justify-content-left fill-container large-font bold-weight"> 使用说明 </a> </li>
                     <li> <a href="#intro-aside-nav" class="justify-content-left fill-container list-item large-font"> 侧边栏 </a> </li>
                     <li> <a href="#intro-submenu" class="justify-content-left fill-container list-item large-font"> 二级菜单 </a> </li>
                     <li> <a href="#intro-todo" class="justify-content-left fill-container list-item large-font"> 还没开发完毕的部分 </a> </li>
-                    <li class="my-20"> <a class="justify-content-left fill-container large-font bold-weight"> 关于 </a> </li>
+                    <li class="my-20 tc-font"> <a class="justify-content-left fill-container large-font bold-weight"> 关于 </a> </li>
                     <li> <a href="#intro-himu" class="justify-content-left fill-container list-item large-font"> 布局借鉴 </a> </li>
                     <li> <a href="#footer" class="justify-content-left fill-container list-item large-font"> 版权声明 </a> </li>
                     <li> <a href="https://github.com/himuhuan" class="justify-content-left fill-container list-item large-font"> Github 主页 </a> </li>
-                    <li class="my-20"><a class="justify-content-left fill-container large-font bold-weight"> 其它 </a> </li>
+                    <li class="my-20 tc-font"><a class="justify-content-left fill-container large-font bold-weight"> 其它 </a> </li>
                     <li> <a href="#" class="justify-content-left fill-container list-item large-font"> 为了侧边栏效果凑字数 </a> </li>
                     <li> <a href="#" class="justify-content-left fill-container list-item large-font"> 为了侧边栏效果凑字数 </a> </li>
                     <li> <a href="#" class="justify-content-left fill-container list-item large-font"> 为了侧边栏效果凑字数 </a> </li>
@@ -120,8 +116,8 @@
                 </ul>
             </nav>
         </div>
-        <article class="main-content code-font">
-            <h1 class="my-20"> 更新内容 </h1>
+        <article class="main-content code-font" id="content">
+            <h1 class="my-20" id="update"> 更新内容 </h1>
             <section id="overview" class="article-section">
                 <h2> 概述 </h2>
                 <p> 本次更新主要对 Himu 进行了可用性, 兼容性的方面问题进行了改进, 同时也增加了二级导航, 垂直文档导航等功能. </p>
@@ -151,7 +147,7 @@
                 </div>
             </section>
 
-            <h1> 使用说明 ~ 介绍 </h1>
+            <h1 id="usage"> 使用说明 ~ 介绍 </h1>
             <section id="intro-aside-nav" class="article-section">
                 <h2> 侧边栏 </h2>
                 <p>
@@ -185,7 +181,7 @@
                 </div>
             </section>
 
-            <h1 class="my-20"> 关于 "Himu" </h1>
+            <h1 class="my-20" id="about"> 关于 "Himu" </h1>
             <section id="intro-himu" class="article-section">
                 <h2> 样式借鉴 </h2>
                 <p> 本网站主要参考了 mdn 的网站设计,
@@ -201,5 +197,8 @@
         <p> 浏览本网站说明已同意我们的<u>隐私声明和 Cookie</u> </p>
         <p> 版权所有&copy; 2022 Himu &lt;mmpliuhuan@outlook.com&gt;, 仅用于学习交流, 非盈利用途  </p>
     </div>
+
+    <script>
+    </script>
 </body>
 </html>
